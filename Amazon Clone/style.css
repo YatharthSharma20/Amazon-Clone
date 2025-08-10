@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar{
+    position: relative;
+    height: 60px;
+    width: 100vw;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* nav-box 1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* nav-box 2 */ 
+.pera-delivering{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.pera-india{
+    font-size: 1rem;
+}
+
+/* nav-box 3 */
+.serching-element{
+    display: flex;
+    height: 40px;
+    width: 830px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+}
+
+.serching-element:hover {
+    border: 2px solid #e6a045;
+}
+
+#search-select{
+    background-color: #e6e6e6;
+    color: rgb(97, 96, 96);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+#search-select:hover{
+    background-color: #d8d4d4;
+    color: black;
+}
+
+input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    height: 40px;
+    width: 45px;
+    background-color: #FEBD69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.search-icon:hover{
+    background-color: #e4a451;
+}
+
+.fa-sharp {
+    font-size: 1.2rem;
+}
+
+/* nav box 4 */
+.nav-language{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flag{
+    background-image: url(indianflag-removebg-preview.png);
+    background-size: cover;
+    height: 17px;
+    width: 21.6px;
+}
+
+#lang-select{
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* nav box 5 */
+.sign-in{
+    cursor: pointer;
+}
+
+.hello{
+    font-size: 0.8rem;
+    margin-left: 3px;
+}
+
+#account-list{
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* nav box 6 */
+.order{
+    width: 75px;
+    cursor: pointer;
+}
+
+.retumes{
+    font-size: 0.7rem;
+}
+
+.orders{
+    font-size: 0.9rem;
+}
+
+/* nav box 7 */
+.cart{
+    cursor: pointer;
+}
+
+.cart i {
+    font-size: 26px;
+}
+
+/* ......................................................... */
+
+/* panel */
+.panel{
+    color: white;
+    width: 100vw;
+    height: 40px;
+    background-color: #222f3d;
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* panel all */
+.panel-all{
+    cursor: pointer;
+}
+
+.panel-all b{
+    font-size: 0.85rem;
+}
+
+/* panerl options */
+.panel-ops{
+    width: 80%;
+    cursor: pointer;
+}
+
+.panel-ops pre{
+    display: inline;
+    font-size: 0.85rem;
+}
+
+/* panel deals */
+.panel-deals{
+    cursor: pointer;
+}
+
+/* ..................................... */
+
+/* hero section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    width: 94.85%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* ...................................... */
+
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.shop-section h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.shop-section a {
+    font-size: 0.813rem;
+}
+
+.box{
+    height: 382px;
+    width: 21.83%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 24px 0px ;
+    box-shadow: 10px 5px 5px #bfc5c5 ;
+}
+
+.box-img{
+    background-size: cover;
+    height: 300px;
+    width: 378;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ............................ */
+/* footer */
+
+/* foot-panel1 */
+.foot-panel1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 0.813rem;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.foot-panel1:hover{
+    background-color: #48596d;
+}
+
+/* foot-panel2 */
+.foot-panel2{
+    padding-top: 55px;
+    color: white;
+    display: flex;
+    background-color: #222f3d;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 li{
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+
+.foot-panel2 li:hover{
+    text-decoration: underline;
+}
+
+.foot-panel2 a{
+    color: #DDDDDD;
+}
+
+/* foot-panel 3 */
+.foot-panel3{
+    background-color: #222f3d;
+    width: 100%;
+    height: 70px;
+    border-top: 0.1px solid rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* foot-panel 4 */
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 77px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a{
+    color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.pages a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    padding-top: 5px;
+}
